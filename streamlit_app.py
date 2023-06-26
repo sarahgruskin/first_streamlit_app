@@ -45,4 +45,4 @@ sl.dataframe(my_data_rows)
 
 # Allow the end user to add a fruit to the list
 add_my_fruit = sl.text_input('What fruit would you like to add?','Kiwi')
-s1.write(f'Thanks for adding {add_my_fruit}')
+sl.write(f'Thanks for adding {add_my_fruit}')
