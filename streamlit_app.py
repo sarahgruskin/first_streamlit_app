@@ -44,5 +44,5 @@ sl.header("The fruit load list contains")
 sl.dataframe(my_data_rows)
 
 # Allow the end user to add a fruit to the list
-add_my_fruit = sl.text_input('What fruit would you like to add?','Kiwi')
+add_my_fruit = sl.text_input('What fruit would you like to add?','Jackfruit')
 sl.write(f'Thanks for adding {add_my_fruit}')
